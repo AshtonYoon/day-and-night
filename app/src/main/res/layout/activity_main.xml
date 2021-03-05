@@ -10,7 +10,7 @@
     app:layoutDescription="@xml/scene"
     tools:showPaths="true">
 
-    <View
+    <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
@@ -33,5 +33,13 @@
         android:layout_height="64dp"
         android:src="@drawable/sun"
         app:altSrc="@drawable/moon" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/forest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:src="@drawable/forest_day"
+        app:altSrc="@drawable/forest_night" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
