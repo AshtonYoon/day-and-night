@@ -13,7 +13,7 @@
         android:layout_height="0dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:background="#000"
+        android:src="@drawable/bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,12 +40,14 @@
         app:shape_roundRect_borderWidth="2dp">
 
         <ImageView
+            android:id="@+id/imageView1"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_airplanemode_active_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -62,8 +64,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_desktop_windows_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -80,8 +83,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_mic_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -98,8 +102,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_outlined_flag_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -118,8 +123,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_photo_album_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -135,8 +141,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_place_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -152,8 +159,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_sd_storage_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -169,8 +177,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_settings_input_hdmi_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -188,8 +197,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_tune_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -205,8 +215,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_video_call_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -222,8 +233,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_volume_up_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>
@@ -239,8 +251,9 @@
             android:layout_height="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:background="#88ffffff"
-            android:src="@drawable/ic_launcher_foreground"
+            android:background="#2196f3"
+            android:padding="14dp"
+            android:src="@drawable/ic_baseline_wifi_off_24"
             android:contentDescription="@string/todo"/>
 
     </com.github.florent37.shapeofview.shapes.RoundRectView>

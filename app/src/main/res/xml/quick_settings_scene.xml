@@ -6,7 +6,7 @@
     <Transition
         motion:constraintSetEnd="@id/end"
         motion:constraintSetStart="@id/start"
-        motion:motionInterpolator="linear">
+        app:motionInterpolator="easeInOut">
 
         <OnSwipe
             motion:dragDirection="dragDown"
@@ -20,28 +20,28 @@
                 motion:framePosition="50"
                 motion:keyPositionType="deltaRelative"
                 motion:motionTarget="@+id/view5"
-                motion:percentX="0"
+                motion:percentX="-0.5"
                 motion:percentY="1" />
 
             <KeyPosition
                 motion:framePosition="50"
                 motion:keyPositionType="deltaRelative"
                 motion:motionTarget="@+id/view6"
-                motion:percentX="0"
+                motion:percentX="-1"
                 motion:percentY="1" />
 
             <KeyPosition
                 motion:framePosition="50"
                 motion:keyPositionType="deltaRelative"
                 motion:motionTarget="@+id/view7"
-                motion:percentX="0"
+                motion:percentX="-2"
                 motion:percentY="1" />
 
             <KeyPosition
                 motion:framePosition="50"
                 motion:keyPositionType="deltaRelative"
                 motion:motionTarget="@+id/view8"
-                motion:percentX="0"
+                motion:percentX="-4"
                 motion:percentY="1" />
 
             <!-- Row 3 -->
