@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layoutDescription="@xml/quick_settings_scene">
+
+    <ImageView
+        android:id="@+id/likeCat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
+
+    <View
+        android:id="@+id/backgroundView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="#ff00ff"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
+
+    <!--  Row 1  -->
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view1"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view2"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view3"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view4"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+
+    <!--  Row 2  -->
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view5"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view6"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view7"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view8"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+    <!--  Row 3  -->
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view9"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view10"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view11"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/view12"
+        android:layout_width="@dimen/quick_setting_icon_width"
+        android:layout_height="wrap_content"
+        app:shape_roundRect_borderColor="@android:color/transparent"
+        app:shape_roundRect_borderWidth="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#88ffffff"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo"/>
+
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
